@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Слайдер</title>
+</head>
+
+<body>
+  <section class="slider">
+
+    <div class="btn-wrapp">
+      <button class="button button-radio button-active" type="button">
+      </button>
+      <button class="button button-radio" type="button">
+      </button>
+      <button class="button button-radio" type="button">
+      </button>
+      <button class="button button-radio" type="button">
+      </button>
+    </div>
+
+    <button type="button" class="button button-prev">
+    </button>
+    <button type="button" class="button button-next">
+    </button>
+
+    <div class="slides">
+      <div class="slide slide--active" id="carousel-item-1">
+        <img class="slide-img" src="./img/summer.jpg" alt="Абстрактные цветы">
+        <h2 id="item-1-label">«Лето»</h2>
+      </div>
+      <div class="slide" id="carousel-item-2">
+        <img class="slide-img" src="./img/flowers.jpg" alt="Цветы с расплывчатыми контурами">
+        <h2 id="item-2-label">«Цветочное поле»</h2>
+      </div>
+      <div class="slide" id="carousel-item-3">
+        <img class="slide-img" src="./img/lilac.jpg" alt="Несколько пятен">
+        <h2 id="item-3-label">«Лиловый»</h2>
+      </div>
+      <div class="slide" id="carousel-item-4">
+        <img class="slide-img" src="./img/scarlet.jpg" alt="Несколько роз">
+        <h2 id="item-4-label">«Алый»</h2>
+      </div>
+    </div>
+  </section>
+
+  <script src="./slider.js"></script>
+</body>
+
+</html>

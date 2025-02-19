@@ -1,0 +1,70 @@
+.slider {
+  margin: 0 auto;
+  position: relative;
+  max-width: 900px;
+  height: 100%;
+}
+
+.btn-wrapp {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button-radio {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #0e4bf3;
+}
+
+.button-prev,
+.button-next {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border: none;
+  width: 30px;
+  height: 100%;
+  background-color: gold;
+}
+
+.button-next {
+  background-color: greenyellow;
+  right: 0;
+}
+
+.button-active {
+  background-color: #C56FFF;
+}
+
+.slides {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.slide--active {
+  display: block;
+}
+
+.slide-img {
+  display: block;
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}

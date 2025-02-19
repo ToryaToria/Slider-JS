@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Слайдер</title>
+</head>
+
+<body>
+  <section class="slider" role="region" aria-label="Паттерны">
+   
+    <div class="controls" device-width role="group" aria-label="Управление слайдами">
+      <button class="button button-radio" type="button" aria-current="true" aria-label="Показать 1 из 4">
+      </button>
+      <button class="button button-radio" type="button" aria-label="Показать 2 из 4">
+      </button>
+      <button class="button button-radio" type="button" aria-label="Показать 3 из 4">
+      </button>
+      <button class="button button-radio" type="button" aria-label="Показать 4 из 4">
+      </button>
+
+      <button aria-label="Предыдущий" type="button" class="button button-prev">
+      </button>
+      <button aria-label="Следующий" type="button" class="button button-next">
+      </button>
+    </div>
+
+    <div class="slides" aria-live="polite">
+      <div class="slide" role="group" aria-labelledby="item-1-label" id="carousel-item-1">
+        <img class="slide-img" src="./img/summer.jpg" alt="Абстрактные цветы розовых, синих,
+        малиновых и оранжевых оттенков на зелёном фоне.">
+        <h2 id="item-1-label">Паттерн «Лето»</h2>
+      </div>
+      <div class="slide" role="group" aria-labelledby="item-2-label" id="carousel-item-2">
+        <img class="slide-img" src="./img/flowers.jpg" alt="Цветы с расплывчатыми контурами, похожие на маки.
+        Преобладает розовый, тёмно-зелёный, красный и фиолетовый цвет.">
+        <h2 id="item-2-label">Паттерн «Цветочное поле»</h2>
+      </div>
+      <div class="slide" role="group" aria-labelledby="item-3-label" id="carousel-item-3">
+        <img class="slide-img" src="./img/lilac.jpg" alt="Несколько пятен розовых оттенков в форме цветов.
+        На их фоне салатовые, тёмно-зелёные и фисташковые брызги.">
+        <h2 id="item-3-label">Паттерн «Лиловый»</h2>
+      </div>
+      <div class="slide" role="group" aria-labelledby="item-4-label" id="carousel-item-4">
+        <img class="slide-img" src="./img/scarlet.jpg" alt="Несколько абстрактных роз в виде пятен алого цвета.">
+        <h2 id="item-4-label">Паттерн «Алый»</h2>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
